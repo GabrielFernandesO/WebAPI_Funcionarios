@@ -27,7 +27,7 @@ A API oferece um conjunto completo de operações CRUD para gerenciar funcionár
 
 ## Contribuição
 
-Contribuições são bem-vindas! Para colaborar, abra uma issue ou envie um pull request. Consulte o [Guia de Contribuição](CONTRIBUTING.md) para mais detalhes.
+Contribuições são bem-vindas! Para colaborar, basta entrar em contato.
 
 ## Contato
 
