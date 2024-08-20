@@ -1,18 +1,38 @@
-Web API em C#
-Este projeto é uma Web API desenvolvida em C# que permite operações completas de CRUD para gerenciar informações de funcionários. A API é conectada a um banco de dados SQL Server e utiliza o Entity Framework Core para interações com o banco de dados.
+# Web API em C#
 
-Tecnologias Utilizadas
-Banco de Dados SQL Server: Utilizado para armazenar e gerenciar os dados dos funcionários.
-Web API em C#: Desenvolvida utilizando o ASP.NET Core para criar endpoints RESTful.
-Entity Framework Core: Framework de mapeamento objeto-relacional (ORM) usado para facilitar operações com o banco de dados SQL Server. Inclui suporte a migrations para gerenciar alterações no esquema do banco de dados.
-Funcionalidades
-A API oferece operações completas de CRUD para o gerenciamento de funcionários, incluindo:
+Este projeto é uma API RESTful desenvolvida em C# usando ASP.NET Core. A API gerencia informações de funcionários e utiliza o banco de dados SQL Server para armazenar dados. O Entity Framework Core é utilizado para facilitar as operações de banco de dados e gerenciar as migrations.
 
-GET: Recupera uma lista de funcionários ou um funcionário específico por ID.
-POST: Adiciona um novo funcionário ao banco de dados.
-PUT: Atualiza as informações de um funcionário existente.
-DELETE: Remove um funcionário do banco de dados.
-Requisitos
-.NET 6 ou superior
-SQL Server
-Visual Studio 2022 ou qualquer IDE compatível com .NET
+## Tecnologias Utilizadas
+
+### Banco de Dados
+
+- **SQL Server**: Sistema de gerenciamento de banco de dados relacional utilizado para armazenar e gerenciar dados.
+
+### Framework
+
+- **ASP.NET Core**: Framework utilizado para desenvolver a API Web, fornecendo suporte para criação de endpoints.
+
+### ORM
+
+- **Entity Framework Core**: Framework de mapeamento objeto-relacional (ORM) usado para interagir com o banco de dados SQL Server. Inclui suporte para migrations para gerenciar alterações no esquema do banco de dados.
+
+## Funcionalidades da API
+
+A API oferece um conjunto completo de operações CRUD para gerenciar funcionários:
+
+- **GET**: Recupera uma lista de todos os funcionários ou um funcionário específico pelo ID.
+- **POST**: Adiciona um novo funcionário ao banco de dados.
+- **PUT**: Atualiza as informações de um funcionário existente.
+- **DELETE**: Remove um funcionário do banco de dados.
+
+## Contribuição
+
+Contribuições são bem-vindas! Para colaborar, abra uma issue ou envie um pull request. Consulte o [Guia de Contribuição](CONTRIBUTING.md) para mais detalhes.
+
+## Contato
+
+Para mais informações ou suporte, entre em contato pelo e-mail gabrielgnsr2000@hotmail.com.
+
+---
+
+Se precisar de mais alguma modificação, é só me avisar!
