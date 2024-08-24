@@ -45,12 +45,10 @@ namespace WebAPI_Funcionarios.Controllers
         }
 
 
-        [HttpPut("inactiveEmployee")]
+        [HttpPut("inactiveEmployee/{id}")]
         public async Task<ActionResult<ServiceResponse<EmployeesModel>>> InactiveEmployee(int id)
         {
             return Ok(await _employeeInterface.InactiveEmployee(id));
         }
-
-
     }
 }
