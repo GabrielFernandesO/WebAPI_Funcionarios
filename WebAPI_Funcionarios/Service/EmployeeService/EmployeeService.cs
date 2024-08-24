@@ -1,5 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.VisualBasic;
 using WebAPI_Funcionarios.DataContext;
 using WebAPI_Funcionarios.Models;
 

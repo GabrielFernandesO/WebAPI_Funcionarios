@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using WebAPI_Funcionarios.Models;
 using WebAPI_Funcionarios.Service.EmployeeService;
 
