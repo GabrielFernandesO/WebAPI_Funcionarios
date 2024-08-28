@@ -38,7 +38,7 @@ namespace WebAPI_Funcionarios.Controllers
             return Ok(await _employeeInterface.UpdateEmployee(employeeEdited));
         }
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public async Task<ActionResult<ServiceResponse<List<EmployeesModel>>>> DeleteEmployee(int id)
         {
             return Ok(await _employeeInterface.DeleteEmployee(id));
